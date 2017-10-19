@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */ 
 // http://eslint.org/docs/user-guide/configuring
 
 module.exports = {

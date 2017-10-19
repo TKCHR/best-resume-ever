@@ -5,6 +5,7 @@ import './oblique.vue';
 import './side-bar.vue';
 import './purple.vue';
 import './side-bar-rtl.vue';
+import './tkchr.vue';
 
 import { PERSON } from '../person';
 import { terms } from '../terms';

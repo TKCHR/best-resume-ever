@@ -3,12 +3,21 @@ require('./check-versions')()
 process.env.NODE_ENV = 'production'
 
 var ora = require('ora')
+var _ = require('lodash');
+var _ = require('lodash/core');
+var fp = require('lodash/fp');
 var rm = require('rimraf')
 var path = require('path')
 var chalk = require('chalk')
 var webpack = require('webpack')
 var config = require('../config')
 var webpackConfig = require('./webpack.prod.conf')
+
+var array = require('lodash/array');
+var object = require('lodash/fp/object');
+
+var at = require('lodash/at');
+var curryN = require('lodash/fp/curryN');
 
 var spinner = ora('building for production...')
 spinner.start()

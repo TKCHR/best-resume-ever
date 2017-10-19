@@ -1,3 +1,5 @@
+/* jshint esversion: 6 */ 
+
 import Vue from 'vue';
 import Router from 'vue-router';
 import Resume from '@/pages/resume';
